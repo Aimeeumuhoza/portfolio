@@ -1,0 +1,42 @@
+.sidebar {
+    position:fixed;
+    width:240px;
+    height:100vh;
+    background: #0e0e11;
+    padding:30px 0px;
+    position:fixed;
+}
+.sidebar h3 {
+    color:#f3f1f1;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+ .sidebar ul li {
+    padding: 15px;
+    font-weight: 600;
+    text-align: center;
+    list-style: none;
+}
+
+.sidebar ul li a {
+    color:#C4C4C4;
+    display:block;
+    text-decoration: none;
+}
+
+.sidebar ul li:hover a {
+    color:#10A674;
+    transition: 0.5;
+}
+.sidebar .profile-picture{
+    border: 8px solid #3d3c3c;
+    height:150px;
+    width: 150px;
+    border-radius: 150px;
+    background: url("../../Images/profile.jpeg") no-repeat;
+    background-size: 90% ;
+    margin:0px auto ;
+    margin-bottom: 15px;
+
+}

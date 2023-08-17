@@ -1,0 +1,119 @@
+#about {
+    background-color: #1F1D21;
+    height:100%;
+    margin-left:240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    padding-bottom: 50px;
+}
+
+#about .header {
+    width: 100%;
+    font-size: 40px;
+    position:relative;
+    margin:50px 0px 180px 0px;
+}
+#about .header .background{
+    position:absolute;
+    font-size: 8vw;
+    text-align: center;
+    font-weight:700;
+    color:#2D2B2B;
+    width:80%;
+    margin: 0px 10%;
+}
+
+#about .header .over {
+    position:absolute;
+    text-align:center;
+    width: 40%;
+    margin:4.5% 30%;
+    font-size:3vw;
+    font-weight: 700;
+    color: #f3f1f1;
+}
+
+#about .header .line{
+    position:absolute;
+    width: 8vw;
+    border-bottom: 3px solid #14c58a;
+    margin:9.5% 45%;
+}
+
+#about .middle {
+    display:flex;
+    flex-direction:row;
+    margin-top:100px;
+}
+
+#about .middle .main{
+    flex:2;
+    margin:0px 40px; 
+}
+
+#about .middle .main .title{
+    font-size:25px;
+    font-weight: 700;
+    color:#f3f1f1;
+    margin-bottom:20px;
+}
+
+#about .middle .main .title span{
+    color:#10A674;
+}
+
+#about .middle .main .content{
+    color:#8f8e8e;
+    font-size:15px;
+    font-weight:500;
+}
+
+#about .middle .main .content p{
+    margin-bottom:15px;
+}
+
+#about .middle .credentials{
+    flex:1;
+    margin-right:40px;
+    color:#C4C4C4;
+}
+
+#about .middle .credentials .text{
+    font-size:15px;
+    font-weight:500;
+    border-bottom: 0.1px solid #464545;
+    padding-bottom:15px;
+    margin-bottom:15px;
+}
+
+#about .middle .credentials .text span {
+    font-weight: 700;
+    color:#f3f1f1;
+}
+
+#about .middle .credentials .text .email {
+    color:#10A674;
+    font-weight:500;
+}
+
+#about .middle .credentials .btn{
+    background:#14c58a ;
+    height:50px;
+    width:170px;
+    text-align:center;
+    border-radius:45px;
+    padding-top:13px;
+    font-weight:600;
+    color:#fff;
+}
+
+#about .middle .credentials .btn a{
+    color:#fff;
+    text-decoration: none;
+}
+
+#about .middle .credentials .btn:hover{
+    background-color: #0f9669;
+    transition: 0.5s;
+}
