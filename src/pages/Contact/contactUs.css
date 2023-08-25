@@ -1,0 +1,162 @@
+#contact {
+    background-color: #1F1D21;
+    height: 100%;
+    margin-left: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    padding-bottom: 50px;
+}
+
+#contact .header {
+    width: 100%;
+    font-size: 40px;
+    position: relative;
+    margin: 50px 0px 180px 0px;
+}
+
+#contact .header .background {
+    position: absolute;
+    font-size: 8vw;
+    text-align: center;
+    font-weight: 700;
+    color: #2D2B2B;
+    width: 80%;
+    margin: 0px 10%;
+}
+
+#contact .header .over {
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    margin: 4.5% 30%;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #f3f1f1;
+}
+
+
+#contact .middle {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+#contact .middle .main {
+    flex: 2;
+    margin: 0px 40px;
+}
+
+#contact .middle .main .title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #f3f1f1;
+    margin-bottom: 20px;
+}
+
+#contact .middle .main .title span {
+    color: #10A674;
+}
+
+#contact .middle .main .content {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#contact .middle .main .content p {
+    margin-bottom: 15px;
+}
+
+#contact .middle .credentials {
+    flex: 34;
+   
+    color: #C4C4C4;
+}
+#contact .middle .credentials .button{
+    margin-right: 885px;
+}
+
+#contact .middle .credentials .text {
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 0.1px solid #464545;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+#contact .middle .credentials .text span {
+    font-weight: 700;
+    color: #f3f1f1;
+}
+
+#contact .middle .credentials .text .email {
+    color: #10A674;
+    font-weight: 500;
+}
+
+.button button {
+
+    background: #14c58a;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-left: 200px;
+   
+}
+
+.button button:hover {
+    background-color: #0f9c5a;
+    /* Slightly darker shade on hover */
+}
+
+
+#contact .middle .credentials .btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#contact.middle .credentials .btn:hover {
+    background-color: #0f9669;
+    transition: 0.5s;
+}
+
+
+.input-group {
+    margin-bottom: 10px;
+    display: inline-flex;
+    align-items: center;
+    padding: 53px;
+
+}
+
+
+input {
+    flex: 55;
+    padding: 34px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background: transparent;
+}
+
+textarea {
+    margin-left: 130px;
+    padding: 34px;
+    border: 1px solid #d6d0c6;
+    border-radius: 4px;
+    font-size: 14px;
+    background: transparent;
+}
+
+.textarea-group textarea {
+    height: 120px;
+    width: 330px;
+
+}
